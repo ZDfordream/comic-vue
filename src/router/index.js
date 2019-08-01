@@ -17,7 +17,6 @@ export const constantRoutes = [
   {
     path: '/comic-detail/:comicId', name: "comic-detail", component: () => import('../views/comic/ComicDetail'),
     meta: {
-      notKeepAlive: true
     }
   },
   {

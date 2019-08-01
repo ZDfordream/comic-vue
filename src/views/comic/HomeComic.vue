@@ -101,6 +101,7 @@
   .home-comic {
     background-color: $comicBgColor;
     display: flex;
+    margin-bottom: 48px;
     flex-direction: column;
     &::-webkit-scrollbar {
       display: none;
