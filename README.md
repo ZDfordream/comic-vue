@@ -9,10 +9,12 @@
 <img src="https://tianyue.oss-cn-hangzhou.aliyuncs.com/comic-vue/vue-4.png" width="330" hspace="20">
 
 ## Setup
+```
 $ git clone https://github.com/ZDfordream/comic-vue
 $ cd comic-vue
 $ npm install
 $ npm run serve
+```
 
 # 默认条约
 
