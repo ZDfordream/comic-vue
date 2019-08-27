@@ -6,7 +6,7 @@
             ref="scroll">
       <van-swipe :autoplay="3000" indicator-color="#ff9a6a">
         <van-swipe-item v-for="image in banner" :key="image">
-          <img v-lazy="image" class="banner"/>
+          <img v-lazy="image" class="banner" @click.stop.prevent="selectComic(recommendEveryDay)"/>
         </van-swipe-item>
       </van-swipe>
       <img src="../../assets/image/comic_block_header.png" class="block-header">
